@@ -1,0 +1,229 @@
+@theme inline {
+  --font-sans: var(--token-font-family-base);
+  --font-display: var(--token-font-family-display);
+
+  --color-brand-primary: var(--token-color-brand-primary);
+  --color-brand-primary-hover: var(--token-color-brand-primary-hover);
+  --color-brand-primary-active: var(--token-color-brand-primary-active);
+  --color-brand-secondary: var(--token-color-brand-secondary);
+  --color-brand-accent: var(--token-color-brand-accent);
+
+  --color-text-primary: var(--token-color-text-primary);
+  --color-text-secondary: var(--token-color-text-secondary);
+  --color-text-muted: var(--token-color-text-muted);
+  --color-text-inverse: var(--token-color-text-inverse);
+
+  --color-surface-page: var(--token-color-surface-page);
+  --color-surface-primary: var(--token-color-surface-primary);
+  --color-surface-muted: var(--token-color-surface-muted);
+  --color-surface-emphasis: var(--token-color-surface-emphasis);
+  --color-surface-overlay: var(--token-color-surface-overlay);
+
+  --color-border-default: var(--token-color-border-default);
+  --color-border-strong: var(--token-color-border-strong);
+  --color-border-emphasis: var(--token-color-border-emphasis);
+
+  --color-feedback-success: var(--token-color-feedback-success);
+  --color-feedback-warning: var(--token-color-feedback-warning);
+  --color-feedback-error: var(--token-color-feedback-error);
+  --color-feedback-info: var(--token-color-feedback-info);
+
+  --color-finance-payment: var(--token-color-finance-payment);
+  --color-finance-payment-surface: var(--token-color-finance-payment-surface);
+  --color-finance-down-payment: var(--token-color-finance-down-payment);
+  --color-finance-down-payment-surface: var(--token-color-finance-down-payment-surface);
+  --color-finance-savings: var(--token-color-finance-savings);
+  --color-finance-savings-surface: var(--token-color-finance-savings-surface);
+  --color-finance-risk: var(--token-color-finance-risk);
+  --color-finance-risk-surface: var(--token-color-finance-risk-surface);
+
+  --text-display-xl: var(--token-font-size-display-xl);
+  --text-display-xl--line-height: var(--token-line-height-display-xl);
+  --text-display-xl--font-weight: var(--token-font-weight-bold);
+  --text-display-lg: var(--token-font-size-display-lg);
+  --text-display-lg--line-height: var(--token-line-height-display-lg);
+  --text-display-lg--font-weight: var(--token-font-weight-bold);
+  --text-h1: var(--token-font-size-h1);
+  --text-h1--line-height: var(--token-line-height-h1);
+  --text-h1--font-weight: var(--token-font-weight-bold);
+  --text-h2: var(--token-font-size-h2);
+  --text-h2--line-height: var(--token-line-height-h2);
+  --text-h2--font-weight: var(--token-font-weight-bold);
+  --text-h3: var(--token-font-size-h3);
+  --text-h3--line-height: var(--token-line-height-h3);
+  --text-h3--font-weight: var(--token-font-weight-semibold);
+  --text-h4: var(--token-font-size-h4);
+  --text-h4--line-height: var(--token-line-height-h4);
+  --text-h4--font-weight: var(--token-font-weight-semibold);
+  --text-body-lg: var(--token-font-size-body-lg);
+  --text-body-lg--line-height: var(--token-line-height-body-lg);
+  --text-body-lg--font-weight: var(--token-font-weight-regular);
+  --text-body-md: var(--token-font-size-body-md);
+  --text-body-md--line-height: var(--token-line-height-body-md);
+  --text-body-md--font-weight: var(--token-font-weight-regular);
+  --text-body-sm: var(--token-font-size-body-sm);
+  --text-body-sm--line-height: var(--token-line-height-body-sm);
+  --text-body-sm--font-weight: var(--token-font-weight-regular);
+  --text-caption: var(--token-font-size-caption);
+  --text-caption--line-height: var(--token-line-height-caption);
+  --text-caption--font-weight: var(--token-font-weight-medium);
+  --text-label: var(--token-font-size-label);
+  --text-label--line-height: var(--token-line-height-label);
+  --text-label--font-weight: var(--token-font-weight-semibold);
+
+  --spacing-0: var(--token-space-0);
+  --spacing-2: var(--token-space-2);
+  --spacing-4: var(--token-space-4);
+  --spacing-8: var(--token-space-8);
+  --spacing-12: var(--token-space-12);
+  --spacing-16: var(--token-space-16);
+  --spacing-20: var(--token-space-20);
+  --spacing-24: var(--token-space-24);
+  --spacing-32: var(--token-space-32);
+  --spacing-40: var(--token-space-40);
+  --spacing-48: var(--token-space-48);
+  --spacing-56: var(--token-space-56);
+  --spacing-64: var(--token-space-64);
+  --spacing-80: var(--token-space-80);
+  --spacing-96: var(--token-space-96);
+
+  --radius-sm: var(--token-radius-4);
+  --radius-md: var(--token-radius-8);
+  --radius-lg: var(--token-radius-12);
+  --radius-xl: var(--token-radius-16);
+  --radius-2xl: var(--token-radius-20);
+  --radius-full: var(--token-radius-pill);
+
+  --shadow-subtle: var(--token-shadow-subtle);
+  --shadow-card: var(--token-shadow-card);
+  --shadow-hover: var(--token-shadow-hover);
+  --shadow-modal: var(--token-shadow-modal);
+
+  --container-content-sm: var(--token-container-content-sm);
+  --container-content-md: var(--token-container-content-md);
+  --container-content-lg: var(--token-container-content-lg);
+  --container-content-xl: var(--token-container-content-xl);
+  --container-content-2xl: var(--token-container-content-2xl);
+
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 90rem;
+
+  --ease-standard: var(--token-motion-ease-standard);
+  --ease-emphasized: var(--token-motion-ease-emphasized);
+}
+
+:root {
+  --token-font-family-base: Aptos, 'Segoe UI', sans-serif;
+  --token-font-family-display: Bahnschrift, 'Arial Narrow', sans-serif;
+
+  --token-color-brand-primary: #0057ff;
+  --token-color-brand-primary-hover: #0047d1;
+  --token-color-brand-primary-active: #0037a3;
+  --token-color-brand-secondary: #111827;
+  --token-color-brand-accent: #f97316;
+
+  --token-color-text-primary: #0f172a;
+  --token-color-text-secondary: #475569;
+  --token-color-text-muted: #64748b;
+  --token-color-text-inverse: #f8fafc;
+
+  --token-color-surface-page: #f8fafc;
+  --token-color-surface-primary: #ffffff;
+  --token-color-surface-muted: #f1f5f9;
+  --token-color-surface-emphasis: #0f172a;
+  --token-color-surface-overlay: rgba(255, 255, 255, 0.82);
+
+  --token-color-border-default: #e2e8f0;
+  --token-color-border-strong: #cbd5e1;
+  --token-color-border-emphasis: rgba(15, 23, 42, 0.14);
+
+  --token-color-feedback-success: #16a34a;
+  --token-color-feedback-warning: #d97706;
+  --token-color-feedback-error: #dc2626;
+  --token-color-feedback-info: #2563eb;
+
+  --token-color-finance-payment: #0057ff;
+  --token-color-finance-payment-surface: #e8f0ff;
+  --token-color-finance-down-payment: #f97316;
+  --token-color-finance-down-payment-surface: #fff1e8;
+  --token-color-finance-savings: #16a34a;
+  --token-color-finance-savings-surface: #eaf8ef;
+  --token-color-finance-risk: #d97706;
+  --token-color-finance-risk-surface: #fff4e5;
+
+  --token-font-size-display-xl: 3.5rem;
+  --token-line-height-display-xl: 4rem;
+  --token-font-size-display-lg: 3rem;
+  --token-line-height-display-lg: 3.5rem;
+  --token-font-size-h1: 2.5rem;
+  --token-line-height-h1: 3rem;
+  --token-font-size-h2: 2rem;
+  --token-line-height-h2: 2.5rem;
+  --token-font-size-h3: 1.5rem;
+  --token-line-height-h3: 2rem;
+  --token-font-size-h4: 1.25rem;
+  --token-line-height-h4: 1.75rem;
+  --token-font-size-body-lg: 1.125rem;
+  --token-line-height-body-lg: 1.75rem;
+  --token-font-size-body-md: 1rem;
+  --token-line-height-body-md: 1.5rem;
+  --token-font-size-body-sm: 0.875rem;
+  --token-line-height-body-sm: 1.25rem;
+  --token-font-size-caption: 0.75rem;
+  --token-line-height-caption: 1rem;
+  --token-font-size-label: 0.875rem;
+  --token-line-height-label: 1.25rem;
+  --token-font-weight-regular: 400;
+  --token-font-weight-medium: 500;
+  --token-font-weight-semibold: 600;
+  --token-font-weight-bold: 700;
+
+  --token-space-0: 0rem;
+  --token-space-2: 0.125rem;
+  --token-space-4: 0.25rem;
+  --token-space-8: 0.5rem;
+  --token-space-12: 0.75rem;
+  --token-space-16: 1rem;
+  --token-space-20: 1.25rem;
+  --token-space-24: 1.5rem;
+  --token-space-32: 2rem;
+  --token-space-40: 2.5rem;
+  --token-space-48: 3rem;
+  --token-space-56: 3.5rem;
+  --token-space-64: 4rem;
+  --token-space-80: 5rem;
+  --token-space-96: 6rem;
+
+  --token-radius-4: 0.25rem;
+  --token-radius-8: 0.5rem;
+  --token-radius-12: 0.75rem;
+  --token-radius-16: 1rem;
+  --token-radius-20: 1.25rem;
+  --token-radius-pill: 9999px;
+
+  --token-shadow-subtle: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --token-shadow-card: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --token-shadow-hover: 0 22px 55px rgba(15, 23, 42, 0.12);
+  --token-shadow-modal: 0 30px 90px rgba(15, 23, 42, 0.18);
+
+  --token-container-content-sm: 40rem;
+  --token-container-content-md: 48rem;
+  --token-container-content-lg: 64rem;
+  --token-container-content-xl: 80rem;
+  --token-container-content-2xl: 90rem;
+
+  --token-breakpoint-sm: 40rem;
+  --token-breakpoint-md: 48rem;
+  --token-breakpoint-lg: 64rem;
+  --token-breakpoint-xl: 80rem;
+  --token-breakpoint-2xl: 90rem;
+
+  --token-motion-duration-fast: 160ms;
+  --token-motion-duration-moderate: 240ms;
+  --token-motion-duration-slow: 360ms;
+  --token-motion-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --token-motion-ease-emphasized: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
