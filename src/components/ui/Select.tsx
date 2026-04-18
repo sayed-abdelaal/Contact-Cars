@@ -44,7 +44,7 @@ export function Select({
       {label && <span className="text-label text-text-primary">{label}</span>}
       <span
         className={cn(
-          'flex min-h-48 items-center gap-12 rounded-xl border bg-surface-primary px-16 shadow-subtle transition duration-[var(--token-motion-duration-fast)] ease-standard focus-within:ring-4',
+          'flex min-h-48 items-center gap-12 rounded-lg border bg-surface-primary px-16 shadow-subtle transition duration-[var(--token-motion-duration-fast)] ease-standard focus-within:ring-4',
           statusTone,
           props.disabled && 'cursor-not-allowed bg-surface-muted opacity-70'
         )}

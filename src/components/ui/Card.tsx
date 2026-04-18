@@ -17,7 +17,7 @@ const toneClasses: Record<CardTone, string> = {
   default: 'bg-surface-primary',
   muted: 'bg-surface-muted',
   finance:
-    'bg-[linear-gradient(180deg,color-mix(in_srgb,var(--token-color-finance-payment-surface)_68%,white)_0%,var(--token-color-surface-primary)_100%)]',
+    'bg-[linear-gradient(180deg,color-mix(in_srgb,var(--token-color-finance-payment-surface)_70%,white)_0%,var(--token-color-surface-primary)_100%)]',
 }
 
 export function Card({
@@ -36,7 +36,7 @@ export function Card({
       className={cn(
         'panel p-20 transition duration-[var(--token-motion-duration-moderate)] ease-standard',
         toneClasses[tone],
-        interactive && 'hover:-translate-y-1 hover:shadow-hover',
+        interactive && 'hover:-translate-y-1 hover:border-border-strong hover:shadow-hover',
         selected && 'border-brand-primary ring-2 ring-[color-mix(in_srgb,var(--token-color-brand-primary)_18%,white)] ring-offset-2 ring-offset-surface-page',
         className
       )}

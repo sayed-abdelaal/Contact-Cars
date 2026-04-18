@@ -7,14 +7,19 @@ import { CarInstalmentV3Page } from '@/pages/CarInstalmentV3Page'
 import { DesignSystemPage } from '@/pages/DesignSystemPage'
 import { ExperimentsPage } from '@/pages/ExperimentsPage'
 import { HomePage } from '@/pages/HomePage'
+import { ReviewPage } from '@/pages/ReviewPage'
 
 export const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <ReviewPage />,
+  },
   {
     path: '/',
     element: <AppShell />,
     children: [
       {
-        index: true,
+        path: 'home',
         element: <HomePage />,
       },
       {

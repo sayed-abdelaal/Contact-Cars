@@ -109,9 +109,9 @@ export const radiusScale = [
 
 export const shadowScale = [
   { name: 'shadow-subtle', cssVar: '--token-shadow-subtle', value: '0 1px 2px rgba(15, 23, 42, 0.06)' },
-  { name: 'shadow-card', cssVar: '--token-shadow-card', value: '0 16px 40px rgba(15, 23, 42, 0.08)' },
-  { name: 'shadow-hover', cssVar: '--token-shadow-hover', value: '0 22px 55px rgba(15, 23, 42, 0.12)' },
-  { name: 'shadow-modal', cssVar: '--token-shadow-modal', value: '0 30px 90px rgba(15, 23, 42, 0.18)' },
+  { name: 'shadow-card', cssVar: '--token-shadow-card', value: '0 8px 24px rgba(15, 23, 42, 0.06)' },
+  { name: 'shadow-hover', cssVar: '--token-shadow-hover', value: '0 16px 34px rgba(15, 23, 42, 0.08)' },
+  { name: 'shadow-modal', cssVar: '--token-shadow-modal', value: '0 24px 64px rgba(15, 23, 42, 0.14)' },
 ] as const
 
 export const layoutTokens = {

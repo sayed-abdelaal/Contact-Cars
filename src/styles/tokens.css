@@ -116,28 +116,28 @@
 }
 
 :root {
-  --token-font-family-base: Aptos, 'Segoe UI', sans-serif;
+  --token-font-family-base: 'IBM Plex Sans Arabic', Roboto, 'Segoe UI', sans-serif;
   --token-font-family-display: Bahnschrift, 'Arial Narrow', sans-serif;
 
-  --token-color-brand-primary: #0057ff;
-  --token-color-brand-primary-hover: #0047d1;
-  --token-color-brand-primary-active: #0037a3;
+  --token-color-brand-primary: #003fe5;
+  --token-color-brand-primary-hover: #0037cb;
+  --token-color-brand-primary-active: #0031b5;
   --token-color-brand-secondary: #111827;
-  --token-color-brand-accent: #f97316;
+  --token-color-brand-accent: #ff9500;
 
-  --token-color-text-primary: #0f172a;
-  --token-color-text-secondary: #475569;
-  --token-color-text-muted: #64748b;
-  --token-color-text-inverse: #f8fafc;
+  --token-color-text-primary: #081945;
+  --token-color-text-secondary: #475576;
+  --token-color-text-muted: #a1aecb;
+  --token-color-text-inverse: #ffffff;
 
-  --token-color-surface-page: #f8fafc;
+  --token-color-surface-page: #ffffff;
   --token-color-surface-primary: #ffffff;
-  --token-color-surface-muted: #f1f5f9;
+  --token-color-surface-muted: #f9fafb;
   --token-color-surface-emphasis: #0f172a;
   --token-color-surface-overlay: rgba(255, 255, 255, 0.82);
 
-  --token-color-border-default: #e2e8f0;
-  --token-color-border-strong: #cbd5e1;
+  --token-color-border-default: #e1e4ea;
+  --token-color-border-strong: #dedede;
   --token-color-border-emphasis: rgba(15, 23, 42, 0.14);
 
   --token-color-feedback-success: #16a34a;
@@ -204,10 +204,10 @@
   --token-radius-20: 1.25rem;
   --token-radius-pill: 9999px;
 
-  --token-shadow-subtle: 0 1px 2px rgba(15, 23, 42, 0.06);
-  --token-shadow-card: 0 16px 40px rgba(15, 23, 42, 0.08);
-  --token-shadow-hover: 0 22px 55px rgba(15, 23, 42, 0.12);
-  --token-shadow-modal: 0 30px 90px rgba(15, 23, 42, 0.18);
+  --token-shadow-subtle: 0 1px 0.5px rgba(29, 41, 61, 0.02);
+  --token-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.12);
+  --token-shadow-hover: 0 16px 34px rgba(15, 23, 42, 0.08);
+  --token-shadow-modal: 0 24px 64px rgba(15, 23, 42, 0.14);
 
   --token-container-content-sm: 40rem;
   --token-container-content-md: 48rem;
