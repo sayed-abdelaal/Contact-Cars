@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import {
   AddCircleIcon,
   CarMenuIcon,
@@ -9,12 +11,12 @@ import {
 } from '@/components/shared/figma-home-icons'
 
 const navItems = [
-  'New Cars',
-  'Used Cars',
-  'Electric Cars',
-  'Services',
-  'Showrooms',
-  'Blog',
+  { label: 'New Cars', to: '/home' },
+  { label: 'Used Cars', to: '/home' },
+  { label: 'Electric Cars', to: '/home' },
+  { label: 'Services', to: '/home' },
+  { label: 'Showrooms', to: '/home' },
+  { label: 'Blog', to: '/home' },
 ]
 
 const logoAsset = 'https://www.contactcars.com/_next/static/media/logo.58992d77.svg'
@@ -24,13 +26,13 @@ export function TopNavigation() {
     <header className="sticky top-0 z-30 bg-surface-primary">
       <div className="mx-auto flex h-[64px] w-full max-w-[1060px] items-center justify-between gap-20 px-12 md:px-0">
         <div className="flex min-w-0 flex-1 items-center gap-20">
-          <a href="/home" className="shrink-0">
+          <Link to="/home" className="shrink-0">
             <img
               src={logoAsset}
               alt="Contact Cars"
               className="h-[40px] w-[112px] object-contain"
             />
-          </a>
+          </Link>
 
           <div className="hidden min-w-0 flex-1 md:block">
             <div className="flex h-[40px] items-center justify-between rounded-[5px] border border-border-default bg-surface-primary px-12">
@@ -77,13 +79,13 @@ export function TopNavigation() {
           className="flex flex-wrap items-center gap-16"
         >
           {navItems.map((item) => (
-            <a
-              key={item}
-              href="#"
+            <Link
+              key={item.label}
+              to={item.to}
               className="rounded-[4px] px-8 py-4 text-[14px] font-medium leading-[22px] text-[#09132f] no-underline transition-none"
             >
-              {item}
-            </a>
+              {item.label}
+            </Link>
           ))}
         </nav>
 

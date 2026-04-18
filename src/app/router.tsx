@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 
 import { AppShell } from '@/components/layout/AppShell'
 import { CarInstalmentV1Page } from '@/pages/CarInstalmentV1Page'
@@ -9,7 +9,7 @@ import { ExperimentsPage } from '@/pages/ExperimentsPage'
 import { HomePage } from '@/pages/HomePage'
 import { ReviewPage } from '@/pages/ReviewPage'
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: <ReviewPage />,
